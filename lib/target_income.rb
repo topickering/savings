@@ -6,8 +6,8 @@ class TargetIncome
     @target = 0
   end
 
-  def set(n)
-    @target = n
+  def set(income)
+    @target = income
     target
   end
 
