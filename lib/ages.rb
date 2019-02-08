@@ -8,4 +8,8 @@ class Ages
     @retirement = age
   end
 
+  def time_to_retirement
+    @retirement - @current
+  end
+
 end

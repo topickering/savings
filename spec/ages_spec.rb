@@ -16,4 +16,12 @@ describe Ages do
     end
   end
 
+  describe '#time_to_retirement' do
+    it 'calculates the number of years to target retirement' do
+      ages.set_current(35)
+      ages.set_retirement(65)
+      expect(ages.time_to_retirement).to eq 30
+    end
+  end
+
 end
