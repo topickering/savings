@@ -26,6 +26,7 @@ rubocop
 
 ## [User stories]
 
+```
 As a conscientious individual
 So that I can plan for my retirement
 I want to set a target annual retirement income
@@ -45,3 +46,4 @@ I want to see how much I would need to set aside now to reach the target pot
 As a long term planner
 So that I only save what is required
 I want to account for any current savings (including existing pension pots)
+```
