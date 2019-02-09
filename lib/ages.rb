@@ -1,10 +1,10 @@
 class Ages
 
-  def set_current(age)
+  def current(age)
     @current = age
   end
 
-  def set_retirement(age)
+  def retirement(age)
     @retirement = age
   end
 

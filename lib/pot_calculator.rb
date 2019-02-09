@@ -9,7 +9,7 @@ class PotCalculator
   end
 
   def inflated_target(target, time)
-    target*(DEFAULT_INFLATION**time)
+    target * (DEFAULT_INFLATION**time)
   end
 
 end
