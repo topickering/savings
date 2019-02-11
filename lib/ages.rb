@@ -1,11 +1,10 @@
 class Ages
 
-  def current(age)
-    @current = age
-  end
+  attr_reader :current, :retirement
 
-  def retirement(age)
-    @retirement = age
+  def initialize(current, retirement)
+    @current = current
+    @retirement = retirement
   end
 
   def time_to_retirement
