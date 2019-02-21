@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Retirement Planner</title>
+  </head>
+  <body>
+    <h1>Here are your initial results:</h1>
+
+    <div>
+      <h1>Your current age is <%= @ages.current%></h1><br>
+      <h1>You want to retire at age <%= @ages.retirement%></h1><br>
+      <h1>This means you have <%= @ages.time_to_retirement %> years until you retire.</h1>
+    </div>
+
+  </body>
+</html>
