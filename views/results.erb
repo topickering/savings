@@ -8,12 +8,15 @@
     <h1>Here are your initial results:</h1>
 
     <div>
-      <h1>Your current age is <%= @ages.current%>,</h1>
-      <h1>you want to retire at age <%= @ages.retirement%></h1>
-      <h1>which means you have <%= @ages.time_to_retirement %> years until you retire.</h1>
+      <h3>Your current age is <%= @ages.current%>,</h3>
+      <h3>you want to retire at age <%= @ages.retirement%></h3>
+      <h3>which means you have <%= @ages.time_to_retirement %> years until you retire.</h3>
     </div>
 
     <div>
+      <h3>You want to have an income of <%= @income %> when you retire,</h3>
+      <h3>which means a pot of approximately <%= @target %> (in today's money).</h3>
+    </div>
 
   </body>
 </html>

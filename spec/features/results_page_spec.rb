@@ -15,4 +15,9 @@ feature 'Results page' do
     expect(page).to have_content "30"
   end
 
+  scenario 'shows target income at retirement' do
+    enter_details
+    expect(page).to have_content "10,000"
+  end
+
 end

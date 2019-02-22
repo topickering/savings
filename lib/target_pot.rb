@@ -1,7 +1,8 @@
 class TargetPot
 
   def estimate(income)
-    income * 25
+    i = income.delete(",").to_i
+    i * 25
   end
 
 end
